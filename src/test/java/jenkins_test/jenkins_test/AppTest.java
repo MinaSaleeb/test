@@ -40,7 +40,13 @@ public class AppTest
    
 	public void testPrintHelloWorld() {
 
-		Assert.assertEquals(App.getHelloWorld(), "Hello World");
+		Assert.assertEquals(App.getHelloWorld(), "Hello World1");
+
+	}
+	
+	public void testPrintHelloWorld2() {
+
+		Assert.assertEquals(App.getHelloWorld2(), "Hello World 2");
 
 	}
 }
