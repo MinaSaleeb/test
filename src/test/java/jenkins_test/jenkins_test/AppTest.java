@@ -1,5 +1,6 @@
 package jenkins_test.jenkins_test;
 
+import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -35,4 +36,11 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+   
+	public void testPrintHelloWorld() {
+
+		Assert.assertEquals(App.getHelloWorld(), "Hello World");
+
+	}
 }
